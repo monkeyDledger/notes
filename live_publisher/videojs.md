@@ -2,7 +2,7 @@
 
 ## 支持http点播和rtmp流媒体的开源H5播放器
 
-*html中引用
+* html中引用
 
 	<video id="rtmp_player" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" width="540" height="960"
        poster="/web/assets/img/background.jpg" data-setup="{}">
@@ -23,13 +23,13 @@
         player.load(url);
     </script>
 
-*poster为封面图片
+* poster为封面图片
 
-*Api地址 [http://docs.videojs.com/docs/api/player.html]()
+* Api地址 [http://docs.videojs.com/docs/api/player.html]()
 
-*使用过程中，播放rtmp流数据时遇到问题，画面初始大小存在问题，手动全屏后才正常
+* 使用过程中，播放rtmp流数据时遇到问题，画面初始大小存在问题，手动全屏后才正常
 
-#GrindPlayer
+# GrindPlayer
 ## [官网](http://osmfhls.kutu.ru/docs/grind)
 
 	<!DOCTYPE html>
