@@ -2,7 +2,6 @@
 
 > 本文总结一些对Appium方法的封装，使用的是`AndroidDriver`
 
-***
 ````java
 package com.unionpay.util;
 

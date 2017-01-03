@@ -1,22 +1,22 @@
 # TestNG
-***
+
 > TestNG是一个测试Java应用程序的开源框架，类似JUnit和NUnit。
 
 [TOC]
 
 ## 环境配置
-***
+
 > TestNG是一个测试Java应用程序的开源框架，类似JUnit和NUnit。
 
 ## 环境配置
-***
+
 *  配置好java环境，命令行`java -version`查看
 *  [官网](http://testng.org/doc/download.html) , 下载对应系统下jar文件
 *  系统环境变量中添加指向jar文件所在路径
 *  Eclipse中安装testng，Help -> Install New Software，Add [http://beust.com/eclipse](http://beust.com/eclipse)
 
 ## TestNG 基本用法
-***
+
 ````java
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -62,7 +62,7 @@ public class TestNGLearn1 {
 |**@Test**|标记一个类或方法作为测试的一部分|
 
 ## testng.xml
-***
+
 |属性      | 描述        |
 |--------   | --------|
 |name|suite的名字（他会出现在测试报告中）|

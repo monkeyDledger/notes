@@ -1,8 +1,8 @@
 #adb
-***
+
  整理一些adb命令
 ## abd wifi connect
-***
+
     adb devices 查看所有连接设备的udid
     adb tcpip 5555 设定tcp端口
     adb connect device_ip:5555 （ip可在设备的wifi里看到）
@@ -17,7 +17,7 @@
     PC端执行adb connect device_ip:5555
 
 ## adb chmod
-***
+
     文件系统权限允许时：
           adb shell
           su
@@ -30,7 +30,7 @@
           找出需重写目录的挂载节点，复制其名称，如/dev
           mount -o rw,remount /dev path，path对应子目录均可读写
 ## adb屏幕录制
-***
+
 > screenrecord是一个shell命令，支持**Android4.4**(API level 19)以上，录制的视频格式为**mp4** ,存放到手机sd卡里，默认录制时间为**180s**
 
 ````
@@ -41,12 +41,12 @@ adb shell screenrecord --size 1280*720 --bit-rate 6000000 --time-limit 30 /sdcar
 ````
 
 ## adb截屏
-***
+
 adb shell screencap -p | sed 's/\r$//' > D:/screen.png
  > 截图并将图片导出到D盘，保存文件名screen，格式可以指定为jpg或png
 
 ## 常用简单命令
-***
+
 * `adb push D:/test.txt /sdcard/`  PC端文件导入设备/sdcard路径下
 * `adb pull /sdcard/test.txt D:/`  将设备/sdcard/目录下文件导出到电脑D盘
 * `adb install demo.apk`在设备上安装demo.apk
