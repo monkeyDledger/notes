@@ -55,4 +55,7 @@ adb shell screencap -p | sed 's/\r$//' > D:/screen.png
 * `adb shell getprop ro.build.version.sdk`，查看sdk版本
 * 当PC同时连接多个设备，adb -s udid <command> ， udid为手机唯一标识，可通过设置中关于手机查看
 
+## Android开发相关
+* 真机安装apk遇到INSTALL_FAILED_UPDATE_INCOMPATIBLE错误时，adb uninstall `package-name`，再进行安装
+
 
